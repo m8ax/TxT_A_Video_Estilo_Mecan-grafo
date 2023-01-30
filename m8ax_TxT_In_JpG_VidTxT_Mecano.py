@@ -78,7 +78,7 @@ negro = int(
 )
 
 fondoele = np.random.randint(0, 101)
-fondoso = np.random.randint(1, 6)
+fondoso = np.random.randint(1, 5)
 
 if fondoso == 1:
     fondiso = "M8AX-1.Mp3"
@@ -88,9 +88,7 @@ if fondoso == 3:
     fondiso = "M8AX-3.Mp3"
 if fondoso == 4:
     fondiso = "M8AX-4.Mp3"
-if fondoso == 5:
-    fondiso = "M8AX-5.Mp3"
-
+    
 if negro == 1:
     if fondoele % 2 == 0:
         img = Image.open("mviiiax-fondo1.png")
